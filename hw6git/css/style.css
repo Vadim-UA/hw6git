@@ -1,6 +1,6 @@
 /*
-font-family: "BedrockC";                     !! regular 400
-font-family: "Cony";                         !! regular 400
+font-family: "BedrockC" sans-serif;          !! regular 400
+font-family: "Cony" sans-serif;              !! regular 400
 font-family: 'Lobster', cursive;             !! regular 400
 
 font-family: 'Gemunu Libre', sans-serif;     !! 400,500,700,800
@@ -35,7 +35,12 @@ font-family: 'Stick No Bills', sans-serif;   !! 400,500,700,800
 	min-height: 100%;
 	background-color: rgb(182, 231, 250);
 }
-
+.anchor{
+   font-family: 'Lobster', cursive; 
+   color: #fff;
+   font-size: 25px;
+   margin: 20px 0px 50px 30px;
+}
 /* ------------------ header */
 .header{
 	width: 100%;
@@ -72,14 +77,14 @@ font-family: 'Stick No Bills', sans-serif;   !! 400,500,700,800
 	border-right-style: dashed;
 }
 /* ------------------ main */
-.main{}
+/*.main{}*/
 
 /* ------------------ content */
 .content{
 	max-width: 1170px;
 	margin: 0px auto;
 	background-color: rgb(61, 189, 99);
-   padding: 30px 0px 30px 0px;
+   padding: 30px 10px 30px 10px;
 }
 
 /* ------------------border */
@@ -93,7 +98,6 @@ h2{
 	font-size: 35px;
 	font-weight: 900; 
 	text-align: center;
-   /*padding: 30px 0px 0px 0px;*/
 }
 .border div{
 	width: 200px;
@@ -145,7 +149,7 @@ h2{
    font-family: "BedrockC", sans-serif;
    font-size: 20px;
    color: #fff;
-   line-height: 130%;
+   line-height: 200%;
    letter-spacing: 1px;
    border: 2px dotted rgb(150, 10, 10);
 }
@@ -157,6 +161,11 @@ h2{
    letter-spacing: 1px;
    border: 3px dashed rgb(50, 6, 131);
    margin: 10px 0px 0px 0px;
+   padding: 10px;
+}
+.spanborder b{
+   font-size: 22px;
+   color: rgb(209, 43, 43);
 }
 .spanborder > span + span{
    color: rgb(18, 15, 175);
@@ -164,14 +173,16 @@ h2{
    border: 3px solid rgb(253, 237, 14);
    display: inline-block;
    margin: 10px 0px 0px 0px;
+   padding: 10px;
 }
 .imgborder{
    border: 10px solid rgb(78, 20, 20);
    margin: 10px 3px 20px 3px;
 }
 .imgcontainer{
-   width: 80%;
+   width: 90%;
    margin: 0px auto;
+   text-align: center;
 }
 .solid{
    border-style: solid;
@@ -210,10 +221,11 @@ h2{
 }
 
 /* ------------------outline */
+
 .demo{
-   width: 80%;
-   margin: 30px auto 0;
-   text-align: center;   
+   width: 90%;
+   margin: 30px auto;
+   text-align: center;
 }
 .demoborder,
 .demooutline{
@@ -226,23 +238,198 @@ h2{
    display: inline-block;
    margin: 0px 100px 0px 100px;
    background-color: rgb(220, 233, 40);
-   cursor: pointer;
+   /*transition: 0.5s all;*/
 }
 .demoborder{
-   border: 10px solid rgb(27, 5, 226);
+   border: 20px solid rgb(27, 5, 226);
    box-sizing: unset;
 }
 .demoborder:hover{
    border: none;
 }
 .demooutline{
-   outline: 10px solid rgb(27, 5, 226);
+   outline: 20px solid rgb(27, 5, 226);
    box-sizing: unset;
 }
 .demooutline:hover{
    outline: none;
 }
+.strblock{
+   padding: 20px;
+   color: #fff;
+   font-size: 20px;
+}
+.strblock b{
+   font-size: 22px;
+   color: rgb(228, 11, 11);
+}
+.strblock span.spanoutline{
+   font-family: 'Inconsolata', monospace;
+   outline: 5px dashed rgb(29, 12, 88); 
+}
+.strblock span + br + span{
+   border: 5px solid rgba(116, 15, 45, 0.671); 
+   font-family: 'Stick No Bills', sans-serif;
+}
+.strblock span:hover{
+   outline: none;
+}
+.strblock span + br + span:hover{
+   border: none;
+}
+.imgoutline{
+   width: 80%;
+   margin: 30px auto;
+   text-align: center;
+}
+.imgoutline img {
+   margin: 30px 30px 20px;
+}
+.imgoutline > img + img{
+   border: 20px solid rgba(219, 17, 11, 0.781); 
+   outline: none;
+}
+.imgoutline > img{
+   outline: 20px solid rgba(28, 12, 88, 0.452); 
+}
+.imgoutline > img:hover{
+   outline: none;
+   border: none;
+}
 
+/* ------------------ border-radius */
+.border-radius{
+   text-align: center;
+}
+.radiuspx,
+.radiusproc{
+   width: 90%;
+   font-family: 'Lobster', cursive; 
+   text-align: center;
+   margin: 0px auto;
+   color: #fff;
+}
+.radiuspx div,
+.radiusproc div{
+   width: 200px;
+   height: 200px;
+   display: inline-block;
+   line-height: 190px;
+   background-color: rgb(56, 129, 197);
+   margin: 50px 70px 50px 70px;
+   border: 5px solid #000;
+}
+.radiuspx div span,
+.radiusproc div span{
+   vertical-align: middle;
+}
+.radiuspx div span b,
+.radiusproc div span b{
+   color: rgb(107, 4, 4);
+   text-decoration: underline 3px;
+}
+.radiuspx > div{
+   border-radius: 20px;
+}
+.radiuspx > div + div{
+   border-radius: 50px;
+}
+.radiusproc > div{
+   border-radius: 20%;
+}
+.radiusproc > div + div{
+   border-radius: 50%;
+}
+
+.border-radius p{
+   color: #fff;
+   width: 200px;
+   height: 200px;
+   border: 5px solid #000;
+   border-radius: 50%;
+   margin: 0 auto 20px;
+   background: rgba(173, 36, 36, 0.753);
+}
+.border-radius > p > b{
+   color: rgb(246, 250, 7);
+}
+.border-radius > p + span{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   color: rgb(15, 15, 15);
+   margin: 20px;
+   background-color: rgb(243, 13, 13);
+   line-height: 150%;
+   font-size: 22px;
+   font-family: 'Lobster', cursive;
+}
+.himera {
+   width: 90%;
+   margin: 0px auto 30px;
+   text-align: center;
+   color: #fff;
+   font-size: 25px;
+   padding: 50px 0px 0px 0px;
+}
+.himera1,
+.himera2{
+   width: 400px;
+   height: 400px;
+   display: inline-block;
+   margin: 0px 50px 30px 50px;
+   text-align: center;
+   line-height: 370px;
+   font-family: 'Lobster', cursive;  
+}
+.himera1 {
+   background-color: rgb(136, 221, 38);
+   border-radius: 48% 52% 64% 36% / 15% 22% 78% 85%;
+   border: 10px solid #fc0909;
+   outline: 15px dotted #2582e1; 
+}
+.himera2 {
+   border-radius: 0% 100% 0% 100% / 42% 58% 42% 58%;
+   border: 10px dashed rgb(27, 3, 245);
+   background-color: rgb(55, 224, 12);
+   outline: 25px double #2582e1;
+}
+.himera1 b,
+.himera2 b{
+   color: rgb(16, 31, 167);
+   font-size: 30px;
+}
+.border-radiusimg{
+   width: 90%;
+   margin: 0px auto 50px;
+   text-align: center;   
+}
+.border-radiusimg > div > img{
+   margin: 0px 30px 0px 30px;
+   border-top-right-radius: 40%;
+   border-bottom-left-radius: 30%;
+   border: 10px solid rgb(248, 6, 6);
+   border-right-color: #000;
+   border-bottom-width: 20px;
+   border-left-color: #fa0000;
+   border-top-width: 30px;   
+   border-top-color: rgb(25, 11, 235);
+   border-bottom-color: #fbff00;
+}
+.border-radiusimg > div > img + img{
+   border: 10px double rgb(250, 6, 6);
+   border-radius: 30% 70% 45% 55% / 12% 0% 100% 88% ;
+}
+.border-radiusimg + a{
+   color: #fff;
+   font-size: 40px;
+   font-family: 'Lobster', cursive;
+   border: 10px double rgb(18, 8, 156);
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   padding: 0px 10px 0px 10px;
+   outline: 10px dashed rgb(235, 16, 8);
+}
 /* ------------------ footer */
 .footer{
 	background-color: rgb(29, 155, 148);
