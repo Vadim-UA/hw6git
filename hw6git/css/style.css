@@ -38,8 +38,10 @@ font-family: 'Stick No Bills', sans-serif;   !! 400,500,700,800
 .anchor{
    font-family: 'Lobster', cursive; 
    color: rgb(223, 238, 20);
-   font-size: 25px;
+   font-size: 20px;
    margin: 20px 0px 50px 30px;
+   text-decoration: underline 3px;
+   border-bottom: 3px solid rgb(223, 238, 20);
 }
 /* ------------------ header */
 .header{
@@ -89,7 +91,8 @@ font-family: 'Stick No Bills', sans-serif;   !! 400,500,700,800
 
 /* ------------------border */
 .border{
-	margin: 0px auto;
+   width: 100%;
+	/*margin: 0px auto;*/
 	text-align: center;
 }
 h2{
@@ -207,21 +210,25 @@ h2{
 .borderlink{
    font-family: 'Lobster', cursive;  
    font-size: 30px;
+   background-color: rgb(141, 238, 84);
    border: 5px double rgb(233, 8, 8);
    transition: 1s all;
    margin: 0px 0px 30px 0px;
    display: inline-block;
 }
 .borderlink:hover{
-   border: 5px dotted rgb(79, 7, 212);
+   border: 5px dotted rgb(229, 222, 243);
    color: #fff;
+   background-color: inherit;
 }
 .imgcontainer + div{
    text-align: center;
 }
 
 /* ------------------outline */
-
+.outline{
+   padding: 20px 0px 20px 0px;
+}
 .demo{
    width: 90%;
    margin: 30px auto;
@@ -299,6 +306,7 @@ h2{
 
 /* ------------------ border-radius */
 .border-radius{
+   padding: 20px 0px 40px 0px;
    text-align: center;
 }
 .radiuspx,
@@ -429,6 +437,144 @@ h2{
    border-top-right-radius: 50%;
    padding: 0px 10px 0px 10px;
    outline: 10px dashed rgb(235, 16, 8);
+}
+
+
+/* ------------------ box-shadow */
+.box-shadow {
+   width: 100%;
+   text-align: center;
+   padding: 20px 0px 40px 0px;
+}
+.shadowblock{
+   margin: 0px auto;
+   text-align: center;
+   margin: 20px 0px 20px 0px;
+}
+
+.shadowblock div{
+   width: 200px;
+   height: 200px;
+   background-color: rgb(223, 158, 158);
+   display: inline-block;
+   margin: 20px 40px 20px 40px;
+   color: #fff;
+   line-height: 200px;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+   letter-spacing: 1px;
+   text-shadow: 3px 3px 15px #202008;
+}
+.shadowblock1{
+   box-shadow: 0px 0px 20px 14px #000000;
+}
+.shadowblock2 {
+   box-shadow: 40px -10px #049e9e;
+}
+.shadowblock3 {
+   box-shadow: -12px 12px 10px 10px rgba(0, 0, 255, .2), 12px -12px 12px 10px rgba(46, 25, 10, 0.2);
+}
+.shadowblock4 {
+   box-shadow: inset 7px 0px 11px 12px rgba(12, 7, 5, 1);
+}
+.shadowblock5 {
+   box-shadow: 3px 3px red, -1em 0 .4em rgb(0, 109, 128);
+}
+.shadowblock6 {
+   box-shadow: 10px 6px 22px 8px #88ff00, 5px 20px 10px 18px #ff5100;
+   border-radius: 50%;
+}
+.box-shadowstring {
+   color: #fff;
+   text-align: left;
+   line-height: 150%;
+   padding: 0px 0px 0px 20px;
+   text-align: center;
+   margin: 0px 0px 80px 0px;
+}
+.box-shadowstring > span {
+   box-shadow: 20px -10px 40px #04139e;
+}
+.box-shadowstring > span + br + span{
+   box-shadow: inset 20px -10px 40px #f80404;
+}
+.box-shadowimg{
+   text-align: center;
+   padding: 30px 0px 0px 0px;
+}
+.box-shadowimg img{
+   margin: 20px 60px 20px 60px;
+}
+.box-shadowimg > img{
+   box-shadow: 40px -20px 20px #040e9e, -40px 20px 10px #c3e724;
+   border-radius: 50px;
+}
+.box-shadowimg > img + img{
+   box-shadow: inset 40px -20px #040e9e;   
+   filter: drop-shadow(0 0 3px rgba(100,0,0,0.5));
+}
+.box-shadowstring a{
+   background-color: rgb(20, 143, 192);
+   border-radius: 20%;
+   color: #fff;
+   font-family: "BedrockC" sans-serif; 
+   font-size: 45px;
+   letter-spacing: 2px;
+   box-shadow: 20px -20px 20px #020202, -20px 20px 10px #fc0707;
+}
+.button1,
+.button2 {
+   width: 200px;
+   height: 80px;
+   background-color: rgb(52, 43, 170);
+   border-radius: 50px;
+   margin: 20px 60px 30px 60px;
+   color: #fff;
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   cursor: pointer;
+}
+.button1 {
+   box-shadow: 0px 0px 40px #d6220a;
+}
+.button2 {
+   box-shadow: inset 10px -10px 20px #c2d60a;
+}
+/* ------------------ opacity */
+.opacityblocks{
+   margin: 40px auto;
+   text-align: center;
+   padding: 30px 0px 30px 0px;
+
+}
+.opacityblocks div{
+   width: 300px;
+   height: 200px;
+   background-color: rgb(165, 45, 45);
+   display: inline-block;
+   margin: 0px 30px 0px 30px;
+   text-align: left;
+   color: #fff;
+   font-family: 'Gemunu Libre', sans-serif; 
+   padding: 10px;
+   border-radius: 20px;
+}
+.opacityblocks div mark{
+   font-size: 25px;
+   color: #fff;
+   background-color: rgb(165, 45, 45);
+   text-decoration: underline;
+}
+.opacityblock1 p{
+   opacity: 0.5;
+}
+.opacityblocks .opacityblock2 {
+   background-color: rgba(165, 45, 45, 0.5);
+}
+.opacityblocks .opacityblock2 mark {
+   background-color: rgba(165, 45, 45, 0.5);
+}
+.opacityblock3 {
+   opacity: 0.5;
 }
 /* ------------------ footer */
 .footer{
