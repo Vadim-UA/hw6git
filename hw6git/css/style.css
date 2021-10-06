@@ -1,138 +1,148 @@
 /*
-font-family: "BedrockC" sans-serif;          !! regular 400
-font-family: "Cony" sans-serif;              !! regular 400
+font-family: "BedrockC", sans-serif;          !! regular 400
+font-family: "Cony", sans-serif;              !! regular 400
 font-family: 'Lobster', cursive;             !! regular 400
 
 font-family: 'Gemunu Libre', sans-serif;     !! 400,500,700,800
 font-family: 'Inconsolata', monospace;       !! 400,500,700,900
 font-family: 'Stick No Bills', sans-serif;   !! 400,500,700,800
 */
+
 /* ---------fonts----------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;500;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;900&display=swap");
 
 @font-face {
-	font-family: "BedrockC";
-	src: url("../fonts/") format("woff2"), url("../fonts/BedrockC.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+   font-family: "BedrockC";
+   src: url("../fonts/") format("woff2"), url("../fonts/BedrockC.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
 }
 
 @font-face {
-	font-family: "Cony";
-	src: url("../fonts/Cony.woff2") format("woff2"), url("../fonts/Cony.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+   font-family: "Cony";
+   src: url("../fonts/Cony.woff2") format("woff2"), url("../fonts/Cony.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
 }
 /* ---------fonts------------------------ */
 
 /* ------------------ wrapper */
-.wrapper{
-	min-width: 100%;
-	min-height: 100%;
-	background-color: rgb(182, 231, 250);
+.wrapper {
+   min-width: 100%;
+   min-height: 100%;
+   background-color: rgb(182, 231, 250);
 }
-.anchor{
-   font-family: 'Lobster', cursive; 
+.anchor {
+   font-family: "Lobster", cursive;
    color: rgb(223, 238, 20);
    font-size: 20px;
    margin: 20px 0px 50px 30px;
    text-decoration: underline 3px;
+}
+/*.anchor:hover {
    border-bottom: 3px solid rgb(223, 238, 20);
-}
+   text-decoration: overline 3px;
+}*/
 /* ------------------ header */
-.header{
-	width: 100%;
-	height: 120px;
-	background-color: rgb(98, 76, 197);
-	text-align: center;
-	line-height: 110px;
+.header {
+   width: 100%;
+   height: 120px;
+   background-color: rgb(98, 76, 197);
+   text-align: center;
+   line-height: 110px;
 }
-.mainheader{
-	display: inline-block;
-	vertical-align: middle;
+.mainheader {
+   display: inline-block;
+   vertical-align: middle;
 }
 
-.logo{
-	width: 80px;
-	height: 80px;
-	background-color: rgb(171, 235, 52);
-	border-radius: 50%;
-	display: inline-block;
-	vertical-align: middle;
+.logo {
+   width: 80px;
+   height: 80px;
+   background-color: rgb(171, 235, 52);
+   border-radius: 50%;
+   display: inline-block;
+   vertical-align: middle;
 }
 .logo__box,
 .header__nav,
-.header__nav-element{
-	display: inline-block;
+.header__nav-element {
+   display: inline-block;
 }
-.header__nav-element a{
-	color: #fff;
-	font-family: "BedrockC";
-	font-size: 25px;
-	margin: 0px 0px 0px 20px;
-	border-top: 3px solid rgb(206, 73, 73);
-	border-right: 3px solid rgb(104, 6, 6);
-	border-right-style: dashed;
+.header__nav-element a {
+   color: #fff;
+   font-family: "BedrockC";
+   font-size: 25px;
+   margin: 0px 0px 0px 20px;
+   border-top: 3px solid rgb(206, 73, 73);
+   border-right: 3px solid rgb(104, 6, 6);
+   border-right-style: dashed;
 }
 /* ------------------ main */
 /*.main{}*/
 
 /* ------------------ content */
-.content{
-	max-width: 1170px;
-	margin: 0px auto;
-	background-color: rgb(61, 189, 99);
+.content {
+   max-width: 1170px;
+   margin: 0px auto;
+   background-color: rgb(61, 189, 99);
    padding: 30px 10px 30px 10px;
 }
 
 /* ------------------border */
-.border{
-   width: 100%;
-	/*margin: 0px auto;*/
-	text-align: center;
+.border {
+   text-align: center;
+   padding: 0px 30px;
 }
-h2{
-	color: #fff;
-	font-family: 'Stick No Bills', sans-serif;
-	font-size: 35px;
-	font-weight: 900; 
-	text-align: center;
+h2 {
+   color: #fff;
+   font-family: "Stick No Bills", sans-serif;
+   font-size: 35px;
+   font-weight: 900;
+   text-align: center;
 }
-.border div{
-	width: 200px;
-	height: 200px;
-	background-color: rgb(114, 184, 216);
-	display: inline-block;
-	margin: 20px 20px 20px 20px;
+h3 {
+   font-family: "Lobster", cursive;
+   font-size: 22px;
+   color: #fff;
+   margin: 30px 0px 30px 0px;
+}
+.border div {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(114, 184, 216);
+   display: inline-block;
+   margin: 20px 20px 20px 20px;
    vertical-align: top;
 }
-.border div p{
+.border div p {
    color: #fff;
    font-size: 20px;
-   font-family: "Cony"; 
+   font-family: "Cony";
    margin: 20px 0px 0px 0px;
-   text-shadow: 7px -5px 3px #3310CE;
+   text-shadow: 7px -5px 3px #3310ce;
 }
 .border1 {
-	border: 10px solid rgb(179, 226, 7);
+   border: 10px solid rgb(179, 226, 7);
 }
 .border2 {
-	border: 10px dotted rgb(146, 18, 18);
+   border: 10px dotted rgb(146, 18, 18);
 }
 .border3 {
-	border: 10px dashed rgb(33, 11, 110);
+   border: 10px dashed rgb(33, 11, 110);
 }
 .border4 {
-	border: 15px double rgb(53, 38, 38);
+   border: 15px double rgb(53, 38, 38);
 }
 .border5 {
    border-left: 10px groove rgb(219, 27, 187);
    border-bottom: 10px groove rgb(219, 27, 187);
-   border-top: 10px groove rgb(219, 27, 187);   
+   border-top: 10px groove rgb(219, 27, 187);
 }
 .border6 {
    border-top: 10px ridge rgb(236, 22, 22);
@@ -145,10 +155,10 @@ h2{
 .border8 {
    border: 10px outset rgb(5, 148, 69);
 }
-.spanborder{
-   padding: 20px;
+.spanborder {
+   padding: 20px 30px;
 }
-.spanborder span{
+.spanborder span {
    font-family: "BedrockC", sans-serif;
    font-size: 20px;
    color: #fff;
@@ -156,8 +166,8 @@ h2{
    letter-spacing: 1px;
    border: 2px dotted rgb(150, 10, 10);
 }
-.spanborder p{
-   font-family: "Cony", sans-serif;     
+.spanborder p {
+   font-family: "Cony", sans-serif;
    font-size: 20px;
    color: #fff;
    line-height: 130%;
@@ -166,28 +176,28 @@ h2{
    margin: 10px 0px 0px 0px;
    padding: 10px;
 }
-.spanborder b{
+.spanborder b {
    font-size: 22px;
    color: rgb(209, 43, 43);
 }
-.spanborder > span + span{
+.spanborder > span + span {
    color: rgb(18, 15, 175);
-   font-family: "BedrockC"; 
+   font-family: "BedrockC";
    border: 3px solid rgb(253, 237, 14);
    display: inline-block;
    margin: 10px 0px 0px 0px;
    padding: 10px;
 }
-.imgborder{
+.imgborder {
    border: 10px solid rgb(78, 20, 20);
    margin: 10px 3px 20px 3px;
 }
-.imgcontainer{
+.imgcontainer {
    width: 90%;
    margin: 0px auto;
    text-align: center;
 }
-.solid{
+.solid {
    border-style: solid;
    border-bottom-left-radius: 50px;
    border-top-right-radius: 50%;
@@ -197,46 +207,46 @@ h2{
    border-top-left-radius: 13%;
    border-left-color: rgb(245, 11, 11);
 }
-.dotted{
+.dotted {
    border-style: dotted;
    border-bottom: none;
 }
-.dashed{
+.dashed {
    border-style: dashed;
    border-top: none;
    border-bottom-width: 10px;
    border-bottom-style: double;
 }
-.borderlink{
-   font-family: 'Lobster', cursive;  
+.borderlink {
+   font-family: "Lobster", cursive;
    font-size: 30px;
    background-color: rgb(141, 238, 84);
    border: 5px double rgb(233, 8, 8);
-   transition: 1s all;
+   /*transition: 1s all;*/
    margin: 0px 0px 30px 0px;
    display: inline-block;
 }
-.borderlink:hover{
+/*.borderlink:hover {
    border: 5px dotted rgb(229, 222, 243);
    color: #fff;
    background-color: inherit;
-}
-.imgcontainer + div{
+}*/
+.imgcontainer + div {
    text-align: center;
 }
 
 /* ------------------outline */
-.outline{
+.outline {
    padding: 20px 0px 20px 0px;
 }
-.demo{
+.demo {
    width: 90%;
    margin: 30px auto;
    text-align: center;
 }
 .demoborder,
-.demooutline{
-   font-family: 'Inconsolata', monospace; 
+.demooutline {
+   font-family: "Inconsolata", monospace;
    font-size: 25px;
    font-weight: 900;
    width: 200px;
@@ -247,44 +257,44 @@ h2{
    background-color: rgb(220, 233, 40);
    /*transition: 0.5s all;*/
 }
-.demoborder{
+.demoborder {
    border: 20px solid rgb(27, 5, 226);
    box-sizing: unset;
 }
-.demoborder:hover{
+.demoborder:hover {
    border: none;
 }
-.demooutline{
+.demooutline {
    outline: 20px solid rgb(27, 5, 226);
    box-sizing: unset;
 }
-.demooutline:hover{
+.demooutline:hover {
    outline: none;
 }
-.strblock{
+.strblock {
    padding: 20px;
    color: #fff;
    font-size: 20px;
 }
-.strblock b{
+.strblock b {
    font-size: 22px;
    color: rgb(228, 11, 11);
 }
-.strblock span.spanoutline{
-   font-family: 'Inconsolata', monospace;
-   outline: 5px dashed rgb(29, 12, 88); 
+.strblock span.spanoutline {
+   font-family: "Inconsolata", monospace;
+   outline: 5px dashed rgb(29, 12, 88);
 }
-.strblock span + br + span{
-   border: 5px solid rgba(116, 15, 45, 0.671); 
-   font-family: 'Stick No Bills', sans-serif;
+.strblock span + br + span {
+   border: 5px solid rgba(116, 15, 45, 0.671);
+   font-family: "Stick No Bills", sans-serif;
 }
-.strblock span:hover{
+.strblock span:hover {
    outline: none;
 }
-.strblock span + br + span:hover{
+.strblock span + br + span:hover {
    border: none;
 }
-.imgoutline{
+.imgoutline {
    width: 80%;
    margin: 30px auto;
    text-align: center;
@@ -292,33 +302,33 @@ h2{
 .imgoutline img {
    margin: 30px 30px 20px;
 }
-.imgoutline > img + img{
-   border: 20px solid rgba(219, 17, 11, 0.781); 
+.imgoutline > img + img {
+   border: 20px solid rgba(219, 17, 11, 0.781);
    outline: none;
 }
-.imgoutline > img{
-   outline: 20px solid rgba(28, 12, 88, 0.452); 
+.imgoutline > img {
+   outline: 20px solid rgba(28, 12, 88, 0.452);
 }
-.imgoutline > img:hover{
+.imgoutline > img:hover {
    outline: none;
    border: none;
 }
 
 /* ------------------ border-radius */
-.border-radius{
+.border-radius {
    padding: 20px 0px 40px 0px;
    text-align: center;
 }
 .radiuspx,
-.radiusproc{
+.radiusproc {
    width: 90%;
-   font-family: 'Lobster', cursive; 
+   font-family: "Lobster", cursive;
    text-align: center;
    margin: 0px auto;
    color: #fff;
 }
 .radiuspx div,
-.radiusproc div{
+.radiusproc div {
    width: 200px;
    height: 200px;
    display: inline-block;
@@ -328,28 +338,28 @@ h2{
    border: 5px solid #000;
 }
 .radiuspx div span,
-.radiusproc div span{
+.radiusproc div span {
    vertical-align: middle;
 }
 .radiuspx div span b,
-.radiusproc div span b{
+.radiusproc div span b {
    color: rgb(107, 4, 4);
    text-decoration: underline 3px;
 }
-.radiuspx > div{
+.radiuspx > div {
    border-radius: 20px;
 }
-.radiuspx > div + div{
+.radiuspx > div + div {
    border-radius: 50px;
 }
-.radiusproc > div{
+.radiusproc > div {
    border-radius: 20%;
 }
-.radiusproc > div + div{
+.radiusproc > div + div {
    border-radius: 50%;
 }
 
-.border-radius p{
+.border-radius p {
    color: #fff;
    width: 200px;
    height: 200px;
@@ -358,10 +368,10 @@ h2{
    margin: 0 auto 20px;
    background: rgba(173, 36, 36, 0.753);
 }
-.border-radius > p > b{
+.border-radius > p > b {
    color: rgb(246, 250, 7);
 }
-.border-radius > p + span{
+.border-radius > p + span {
    border-radius: 50%;
    width: 200px;
    height: 200px;
@@ -370,7 +380,7 @@ h2{
    background-color: rgb(243, 13, 13);
    line-height: 150%;
    font-size: 22px;
-   font-family: 'Lobster', cursive;
+   font-family: "Lobster", cursive;
 }
 .himera {
    width: 90%;
@@ -381,20 +391,20 @@ h2{
    padding: 50px 0px 0px 0px;
 }
 .himera1,
-.himera2{
+.himera2 {
    width: 400px;
    height: 400px;
    display: inline-block;
    margin: 0px 50px 30px 50px;
    text-align: center;
    line-height: 370px;
-   font-family: 'Lobster', cursive;  
+   font-family: "Lobster", cursive;
 }
 .himera1 {
    background-color: rgb(136, 221, 38);
    border-radius: 48% 52% 64% 36% / 15% 22% 78% 85%;
    border: 10px solid #fc0909;
-   outline: 15px dotted #2582e1; 
+   outline: 15px dotted #2582e1;
 }
 .himera2 {
    border-radius: 0% 100% 0% 100% / 42% 58% 42% 58%;
@@ -403,16 +413,16 @@ h2{
    outline: 25px double #2582e1;
 }
 .himera1 b,
-.himera2 b{
+.himera2 b {
    color: rgb(16, 31, 167);
    font-size: 30px;
 }
-.border-radiusimg{
+.border-radiusimg {
    width: 90%;
    margin: 0px auto 50px;
-   text-align: center;   
+   text-align: center;
 }
-.border-radiusimg > div > img{
+.border-radiusimg > div > img {
    margin: 0px 30px 0px 30px;
    border-top-right-radius: 40%;
    border-bottom-left-radius: 30%;
@@ -420,18 +430,18 @@ h2{
    border-right-color: #000;
    border-bottom-width: 20px;
    border-left-color: #fa0000;
-   border-top-width: 30px;   
+   border-top-width: 30px;
    border-top-color: rgb(25, 11, 235);
    border-bottom-color: #fbff00;
 }
-.border-radiusimg > div > img + img{
+.border-radiusimg > div > img + img {
    border: 10px double rgb(250, 6, 6);
-   border-radius: 30% 70% 45% 55% / 12% 0% 100% 88% ;
+   border-radius: 30% 70% 45% 55% / 12% 0% 100% 88%;
 }
-.border-radiusimg + a{
+.border-radiusimg + a {
    color: #fff;
    font-size: 40px;
-   font-family: 'Lobster', cursive;
+   font-family: "Lobster", cursive;
    border: 10px double rgb(18, 8, 156);
    border-top-left-radius: 50%;
    border-top-right-radius: 50%;
@@ -439,20 +449,19 @@ h2{
    outline: 10px dashed rgb(235, 16, 8);
 }
 
-
 /* ------------------ box-shadow */
 .box-shadow {
    width: 100%;
    text-align: center;
    padding: 20px 0px 40px 0px;
 }
-.shadowblock{
+.shadowblock {
    margin: 0px auto;
    text-align: center;
    margin: 20px 0px 20px 0px;
 }
 
-.shadowblock div{
+.shadowblock div {
    width: 200px;
    height: 200px;
    background-color: rgb(223, 158, 158);
@@ -460,24 +469,24 @@ h2{
    margin: 20px 40px 20px 40px;
    color: #fff;
    line-height: 200px;
-   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
    letter-spacing: 1px;
    text-shadow: 3px 3px 15px #202008;
 }
-.shadowblock1{
+.shadowblock1 {
    box-shadow: 0px 0px 20px 14px #000000;
 }
 .shadowblock2 {
    box-shadow: 40px -10px #049e9e;
 }
 .shadowblock3 {
-   box-shadow: -12px 12px 10px 10px rgba(0, 0, 255, .2), 12px -12px 12px 10px rgba(46, 25, 10, 0.2);
+   box-shadow: -12px 12px 10px 10px rgba(0, 0, 255, 0.2), 12px -12px 12px 10px rgba(46, 25, 10, 0.2);
 }
 .shadowblock4 {
    box-shadow: inset 7px 0px 11px 12px rgba(12, 7, 5, 1);
 }
 .shadowblock5 {
-   box-shadow: 3px 3px red, -1em 0 .4em rgb(0, 109, 128);
+   box-shadow: 3px 3px red, -1em 0 0.4em rgb(0, 109, 128);
 }
 .shadowblock6 {
    box-shadow: 10px 6px 22px 8px #88ff00, 5px 20px 10px 18px #ff5100;
@@ -494,29 +503,29 @@ h2{
 .box-shadowstring > span {
    box-shadow: 20px -10px 40px #04139e;
 }
-.box-shadowstring > span + br + span{
+.box-shadowstring > span + br + span {
    box-shadow: inset 20px -10px 40px #f80404;
 }
-.box-shadowimg{
+.box-shadowimg {
    text-align: center;
    padding: 30px 0px 0px 0px;
 }
-.box-shadowimg img{
+.box-shadowimg img {
    margin: 20px 60px 20px 60px;
 }
-.box-shadowimg > img{
+.box-shadowimg > img {
    box-shadow: 40px -20px 20px #040e9e, -40px 20px 10px #c3e724;
    border-radius: 50px;
 }
-.box-shadowimg > img + img{
-   box-shadow: inset 40px -20px #040e9e;   
-   filter: drop-shadow(0 0 3px rgba(100,0,0,0.5));
+.box-shadowimg > img + img {
+   box-shadow: inset 40px -20px #040e9e;
+   filter: drop-shadow(0 0 3px rgba(100, 0, 0, 0.5));
 }
-.box-shadowstring a{
+.box-shadowstring a {
    background-color: rgb(20, 143, 192);
    border-radius: 20%;
    color: #fff;
-   font-family: "BedrockC" sans-serif; 
+   font-family: "BedrockC", sans-serif;
    font-size: 45px;
    letter-spacing: 2px;
    box-shadow: 20px -20px 20px #020202, -20px 20px 10px #fc0707;
@@ -530,7 +539,7 @@ h2{
    margin: 20px 60px 30px 60px;
    color: #fff;
    font-size: 20px;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
    cursor: pointer;
 }
 .button1 {
@@ -540,13 +549,12 @@ h2{
    box-shadow: inset 10px -10px 20px #c2d60a;
 }
 /* ------------------ opacity */
-.opacityblocks{
+.opacityblocks {
    margin: 40px auto;
    text-align: center;
    padding: 30px 0px 30px 0px;
-
 }
-.opacityblocks div{
+.opacityblocks div {
    width: 300px;
    height: 200px;
    background-color: rgb(165, 45, 45);
@@ -554,75 +562,231 @@ h2{
    margin: 0px 30px 0px 30px;
    text-align: left;
    color: #fff;
-   font-family: 'Gemunu Libre', sans-serif; 
+   font-family: "Gemunu Libre", sans-serif;
    padding: 10px;
    border-radius: 20px;
 }
-.opacityblocks div mark{
+.opacityblocks div mark {
    font-size: 25px;
    color: #fff;
    background-color: rgb(165, 45, 45);
    text-decoration: underline;
 }
-.opacityblock1 p{
+.opacityblock1 p {
    opacity: 0.5;
 }
-.opacityblocks .opacityblock2 {
-   background-color: rgba(165, 45, 45, 0.5);
-}
+.opacityblocks .opacityblock2,
 .opacityblocks .opacityblock2 mark {
    background-color: rgba(165, 45, 45, 0.5);
 }
 .opacityblock3 {
    opacity: 0.5;
 }
+.opacitystrings,
+.opacitystrings a {
+   line-height: 150%;
+   color: hsl(0, 0%, 100%);
+   font-size: 20px;
+   font-family: "Inconsolata", monospace;
+   font-style: oblique;
+}
+.opacitystrings span {
+   opacity: 0.7;
+}
+.opacitystrings a {
+   width: 150px;
+   height: 50px;
+   background-color: rgb(42, 24, 143);
+   border-radius: 20px;
+   padding: 0px 5px 0px 5px;
+   opacity: 0.7;
+}
+
+.opacitystring-blocks {
+   text-align: center;
+   padding: 20px 0px 0px 0px;
+   margin: 30px 0px 40px 0px;
+}
+.shadownone {
+   box-shadow: none;
+}
+.op-04 {
+   opacity: 0.4;
+}
+.op-08 {
+   opacity: 0.8;
+}
+.backop-03 {
+   background-color: rgb(52, 43, 170, 0.3);
+}
+/* ------------------ visibility */
+.visibility,
+.displaynonebox {
+   margin: 30px 0px 50px 0px;
+   text-align: center;
+}
+.visibilitybox div,
+.displaynonebox div {
+   width: 200px;
+   height: 100px;
+   background-color: rgb(59, 26, 206);
+   margin: 50px 30px 50px 30px;
+   border-radius: 20%;
+   display: inline-block;
+   font-size: 22px;
+   color: #fff;
+   font-family: "Gemunu Libre", sans-serif;
+   text-align: center;
+   box-shadow: 0px 0px 20px 20px rgba(66, 54, 204, 0.5);
+   border: 10px solid #000;
+}
+.visibilitybox > br + span,
+.displaynonebox > br + span {
+   color: #fff;
+   font-size: 22px;
+   outline: 5px dashed #fff;
+   font-family: "Inconsolata", monospace;
+}
+.visibilitybox > .hidden {
+   visibility: hidden;
+}
+.visibilitybox:hover > .hidden {
+   visibility: visible;
+}
+.visibilitybox:hover > br + span {
+   visibility: hidden;
+}
+.hidden {
+   visibility: hidden;
+}
+.hidden:hover {
+   visibility: hidden;
+}
+.displaynonebox .displaynoneboxitem2:hover,
+.displaynonebox > br + span:hover {
+   display: none;
+}
+.linkdisplnone {
+   color: #fff;
+   font-size: 25px;
+   font-family: "Lobster", cursive;
+}
+.linkdisplnone:hover {
+   display: none;
+}
+/* ------------------ other */
+.other {
+   padding: 25px;
+   margin: 30px 0px 50px 0px;
+}
+.other h2 {
+   font-family: "Lobster", cursive;
+   margin: 50px 0px 30px 0px;
+   border-bottom: 5px solid #fff;
+   padding: 0px 10px 5px 10px;
+   display: table;
+   margin: 0px auto;
+}
+.other li {
+   list-style: auto;
+   color: #fff;
+   font-size: 22px;
+   text-align-last: left;
+}
+.other > ol > li > div {
+   margin: 0px auto;
+}
+.round {
+   width: 200px;
+   height: 200px;
+   background-color: rgb(235, 231, 19);
+   border-radius: 50%;
+}
+.test {
+   padding: 20px;
+   color: #fff;
+   opacity: 0.5;
+   background-color: rgb(204, 109, 19);
+   font-family: "Inconsolata", monospace;
+}
+.otherspan {
+   font-family: "Cony", sans-serif;
+   font-size: 25px;
+   border: 5px solid rgb(180, 15, 15);
+   display: inline-block;
+   padding: 10px;
+}
+.fourborders {
+   width: 500px;
+   height: 200px;
+   background-color: rgb(174, 185, 14);
+   margin: 10px auto;
+   border: 10px solid #000;
+   border-left: 15px dashed #fbff00;
+   border-right: 10px dotted #481cff;
+   border-bottom: 30px double #f80404;
+}
+
+.otherlink {
+   color: #fff;
+   font-size: 35px;
+   font-style: oblique;
+   box-shadow: 0px 0px 22px 14px #481cff;
+   border-radius: 31px;
+   padding: 8px;
+   font-weight: 600;
+   background: rgb(216, 142, 142);
+   text-shadow: 5px 5px 5px #376cce;
+   margin: 0px auto;
+   display: table;
+}
 /* ------------------ footer */
-.footer{
-	background-color: rgb(29, 155, 148);
+.footer {
+   background-color: rgb(29, 155, 148);
 }
-.mainfooter{
-	width: 100%;
-	height: 150px;
-	line-height: 140px;
-	vertical-align: middle;
-	text-align: center;
+.mainfooter {
+   width: 100%;
+   height: 150px;
+   line-height: 140px;
+   vertical-align: middle;
+   text-align: center;
 }
-.mainfooter ul li{
-	display: inline-block;
-	vertical-align: middle;
+.mainfooter ul li {
+   display: inline-block;
+   vertical-align: middle;
 }
-.footerlink{
-	display: inline-block;
-	color: #fff;
-	margin: 0px 80px 0px 80px;
-	font-family: 'Stick No Bills', sans-serif;
-	font-weight: 900;
-	line-height: 0.9;
-	transition: 0.5s all;
+.footerlink {
+   display: inline-block;
+   color: #fff;
+   margin: 0px 80px 0px 80px;
+   font-family: "Stick No Bills", sans-serif;
+   font-weight: 900;
+   line-height: 0.9;
+   transition: 0.5s all;
 }
-.footerlink:hover{
-	font-size: 150%;
-	color: rgb(225, 248, 21);
-	font-family: "BedrockC";  
+/*.footerlink:hover {
+   font-size: 150%;
+   color: rgb(225, 248, 21);
+   font-family: "BedrockC";
+}*/
+.twitt__link {
+   width: 80px;
+   height: 30px;
+   border-radius: 100% 0% 73% 27% / 52% 54% 46% 48%;
+   background-color: rgb(179, 61, 159);
+   padding: 5px 0px 0px 0px;
 }
-.twitt__link{
-	width: 80px;
-	height: 30px;
-	border-radius: 100% 0% 73% 27% / 52% 54% 46% 48%;
-	background-color: rgb(179, 61, 159);
-	padding: 5px 0px 0px 0px;
+.face__link {
+   width: 80px;
+   height: 30px;
+   border-radius: 86% 14% 14% 86% / 52% 54% 46% 48%;
+   background-color: rgb(15, 187, 44);
+   padding: 10px 0px 0px 10px;
 }
-.face__link{
-	width: 80px;
-	height: 30px;
-	border-radius: 86% 14% 14% 86% / 52% 54% 46% 48%;
-	background-color: rgb(15, 187, 44);
-	padding: 10px 0px 0px 10px;
-}
-.tell__link{
-	width: 80px;
-	height: 30px;
-	border-radius: 0% 100% 56% 44% / 52% 54% 46% 48% ;
-	background-color: rgb(32, 61, 223);
-	padding: 5px 10px 0px 5px;
+.tell__link {
+   width: 80px;
+   height: 30px;
+   border-radius: 0% 100% 56% 44% / 52% 54% 46% 48%;
+   background-color: rgb(32, 61, 223);
+   padding: 5px 10px 0px 5px;
 }
