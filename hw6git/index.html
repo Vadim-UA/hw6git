@@ -2,314 +2,314 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/null.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
-   <link rel="stylesheet" href="css/style.css">
-   <title>ДЗ№6 Оформлення блоків. Border, shadow, opacity</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ДЗ№6 Оформлення блоків. Border, shadow, opacity</title>
 </head>
 
 <body>
-   <div class="wrapper">
-      <header class="header" id="header">
-         <div class="mainheader">
-            <div class="logo__box">
-               <a href="https://www.rada.gov.ua/" target="_blank" class="logo"></a>
-            </div>
-            <div class="header__nav">
-               <ul>
-                  <li class="header__nav-element"><a href="#border" class="header__link">Властивість border</a></li>
-                  <li class="header__nav-element"><a href="#outline" class="header__link">Властивість outline</a></li>
-                  <li class="header__nav-element"><a href="#border-radius" class="header__link">Властивість
-                        border-radius</a></li>
-                  <li class="header__nav-element"><a href="#box-shadow" class="header__link">Властивість box-shadow</a>
-                  </li>
-                  <li class="header__nav-element"><a href="#opacity" class="header__link">Властивість opacity</a></li>
-                  <li class="header__nav-element"><a href="#visibility" class="header__link">Властивість visibility</a>
-                  </li>
-                  <li class="header__nav-element"><a href="#displaynone" class="header__link">Властивість display:
-                        none</a></li>
-                  <li class="header__nav-element"><a href="#other" class="header__link">Додатково</a></li>
-               </ul>
-            </div>
-         </div>
-      </header>
-      <main class="main">
-         <div class="content">
-            <div class="border" id="border">
-               <h2>border</h2>
-               <div class="border1">
-                  <p>border-style: solid</p>
-               </div>
-               <div class="border2">
-                  <p>border-style: dotted</p>
-               </div>
-               <div class="border3">
-                  <p>border-style: dashed</p>
-               </div>
-               <div class="border4">
-                  <p>border-style: double</p>
-               </div>
-               <div class="border5">
-                  <p>border-style: groove</p>
-               </div>
-               <div class="border6">
-                  <p>border-style: ridge</p>
-               </div>
-               <div class="border7">
-                  <p>border-style: inset</p>
-               </div>
-               <div class="border8">
-                  <p>border-style: outset</p>
-               </div>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="spanborder">
-               <span><b>Я SPAN рядковий.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestias
-                  ut perferendis?
-                  Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
-                  Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
-                  Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
-                  Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
-                  repudiandae architecto dignissimos est error.</span>
-               <span><b>Я SPAN. Тепер я рядково-БЛОЧНИЙ.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Nesciunt molestias ut perferendis?
-                  Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
-                  repudiandae architecto dignissimos est error.</span>
-               <p><b>Я ПАРАГРАФ.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi mollitia
-                  repellendus dolor excepturi expedita quae ex aliquam consequatur maxime dignissimos, odio nemo
-                  possimus
-                  necessitatibus fugit quaerat. Hic, provident voluptate.</p>
-            </div>
-            <div class="imgcontainer">
-               <img src="img/message.jpg" width="300" height="180" alt="message" class="imgborder solid"
-                  title="Козаки пишуть листа">
-               <img src="img/message.jpg" width="300" height="180" alt="message" class="imgborder dotted"
-                  title="Козаки пишуть листа">
-               <img src="img/message.jpg" width="300" height="180" alt="message" class="imgborder dashed"
-                  title="Козаки пишуть листа">
-            </div>
-            <div>
-               <a href="https://supreme.court.gov.ua/supreme/gromadyanam/perelik_sprav/" class="borderlink"
-                  target="_blank">Посилання</a>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="outline" id="outline">
-               <h2>outline</h2>
-               <div class="demo">
-                  <div class="demoborder">border</div>
-                  <div class="demooutline">outline</div>
-               </div>
-               <div class="strblock">
-                  <span class="spanoutline">
-                     <b>Я SPAN з outline</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quas
-                     architecto ducimus dicta
-                     aperiam esse iure. Harum consequatur atque fuga fugiat nobis. Unde nihil magnam nam, voluptas
-                     cupiditate velit facere.
-                  </span>
-                  <br>
-                  <span>
-                     <b>Я SPAN з border</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quas
-                     architecto ducimus dicta
-                     aperiam esse iure. Harum consequatur atque fuga fugiat nobis. Unde nihil magnam nam, voluptas
-                     cupiditate velit facere.
-                  </span>
-               </div>
-               <div class="imgoutline">
-                  <img src="img/message.jpg" width="300" height="180" alt="message" title="Козаки пишуть листа">
-                  <img src="img/message.jpg" width="300" height="180" alt="message" title="Козаки пишуть листа">
-               </div>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="border-radius" id="border-radius">
-               <h2>border-radius</h2>
-               <div class="radiuspx">
-                  <div><span>border-radius: <b>20px</b></span></div>
-                  <div><span>border-radius: <b>50px</b></span></div>
-               </div>
-               <div class="radiusproc">
-                  <div><span>border-radius: <b>20%</b></span></div>
-                  <div><span>border-radius: <b>50%</b></span></div>
-               </div>
-               <p><b>Я ПАРАГРАФ. Маю border-radius: 50%;(((</b> Lorem ipsum dolor sit amet consectetur atque facere
-                  corrupti aut nisi fugiat! Ad quasi similique quibusdam totam labore, consequuntur delectus! Error
-                  itaque repellendus accusamus.</p>
-               <span><b>Я SPAN. Маю border-radius: 50%;((((((</b> Lorem ipsum dolor sit amet consectetur atque facere
-                  corrupti aut nisi fugiat! Ad quasi similique quibusdam totam labore, consequuntur delectus! Error
-                  itaque repellendus accusamus.</span>
-               <div class="himera">
-                  <div class="himera1"><span>Я - химерний <b>border-radius</b></span></div>
-                  <div class="himera2"><span>Я теж химерний <b>border-radius</b></span></div>
-               </div>
-               <div class="border-radiusimg">
-                  <div>
-                     <img src="img/message.jpg" width="400" height="250" alt="message">
-                     <img src="img/message.jpg" width="400" height="250" alt="message">
-                  </div>
-               </div>
-               <a href="https://nazk.gov.ua/uk/" target="_blank">Link</a>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="box-shadow" id="box-shadow">
-               <h2>box-shadow</h2>
-               <div class="box-shadowblock">
-                  <div class="shadowblock">
-                     <div class="shadowblock1">Блочний елемент</div>
-                     <div class="shadowblock2">Блочний елемент</div>
-                     <div class="shadowblock3">Блочний елемент</div>
-                  </div>
-                  <div class="shadowblock">
-                     <div class="shadowblock4">Блочний елемент</div>
-                     <div class="shadowblock5">Блочний елемент</div>
-                     <div class="shadowblock6">Блочний елемент</div>
-                  </div>
-               </div>
-               <div class="box-shadowstring">
-                  <span>
-                     <mark>Зовнішня тінь рядкового елемента</mark> Lorem ipsum dolor sit amet consectetur adipisicing
-                     elit.
-                     Voluptatibus veniam quod numquam sequi distinctio eligendi vel, possimus deserunt qui quam
-                     consectetur autem tenetur quis odio, nam ad
-                     cumque delectus perferendis?
-                  </span>
-                  <br>
-                  <span>
-                     <mark>Внутрішня тінь рядкового елемента</mark> Lorem ipsum dolor sit amet consectetur adipisicing
-                     elit.
-                     Voluptatibus veniam quod numquam sequi distinctio eligendi vel, possimus deserunt qui quam
-                     consectetur autem tenetur quis odio, nam ad
-                     cumque delectus perferendis?
-                  </span>
-                  <div class="box-shadowimg">
-                     <img src="img/message.jpg" width="300" height="180" title="Зовнішня тінь" alt="message">
-                     <img src="img/message.jpg" width="300" height="180" title="Внутрішня тінь" alt="message">
-                  </div>
-                  <br>
-                  <a href="https://www.gp.gov.ua/ua/index.html" target="_blank">Link</a>
-               </div>
-               <div class="box-shadowblockstring">
-                  <button class="button1">Рядково-блочний елемент "button"</button>
-                  <button class="button2">Рядково-блочний елемент "button"</button>
-               </div>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="opacity" id="opacity">
-               <h2>opacity</h2>
-               <div class="opacityblocks">
-                  <div class="opacityblock1">
-                     <p><mark>Opacity 0.5 text</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
-                        fugit officia laboriosam dolor debitis sit eveniet facere, nisi nihil eius?</p>
-                  </div>
-                  <div class="opacityblock2">
-                     <p><mark>Opacity 0.5 background</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Hic fugit officia laboriosam dolor debitis sit eveniet facere, nisi nihil eius?</p>
-                  </div>
-                  <div class="opacityblock3">
-                     <p><mark>Opacity 0.5 all</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fugit
-                        officia laboriosam dolor debitis sit eveniet facere, nisi nihil eius?</p>
-                  </div>
-               </div>
-               <div class="opacitystrings">
-                  <span><mark>Рядковий елемент "SPAN" з OPACITY: 0.7;</mark> Lorem ipsum dolor sit amet consectetur
-                     adipisicing elit. Animi quaerat tempore iure quisquam numquam beatae excepturi illum quos ratione
-                     tenetur earum, reiciendis doloremque veniam necessitatibus enim sed sequi quibusdam sunt.</span>
-                  <br>
-                  <a href="http://htmlbook.ru/html/a" target="_blank">Посилання з <b>OPACITY: 0.7;</b></a>
-               </div>
-               <div class="opacitystring-blocks">
-                  <button class="button1 shadownone op-04"><span>Рядково-блочний елемент "button" з OPACITY:
-                        0.4;</span></button>
-                  <button class="button2 shadownone op-08"><span>Рядково-блочний елемент "button" з OPACITY:
-                        0.8;</span></button>
-                  <button class="button2 shadownone backop-03"><span>Елемент "button" з OPACITY: 0.3; лише
-                        background</span></button>
-               </div>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="visibility" id="visibility">
-               <h2>visibility</h2>
-               <div class="visibilitybox">
-                  <div class="visible"><span>visibility: visible;</span></div>
-                  <div class="hidden">visibility: hidden;</div>
-                  <div class="hidden2"><span>visibility: visible;</span></div>
-                  <br>
-                  <span><mark>visibility: hidden</mark> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                     Aliquid, voluptatibus inventore eius
-                     atque obcaecati dolorum accusantium cupiditate ducimus ratione ut doloribus deleniti ab libero eos
-                     dicta consequatur mollitia sunt debitis!</span>
-               </div>
-               <div class="displaynonebox" id="displaynone">
-                  <h2>display: none</h2>
-                  <div class="displaynoneboxitem1">display: inline-block;</div>
-                  <div class="displaynoneboxitem2">display: none;</div>
-                  <div class="displaynoneboxitem3">display: inline-block;</div>
-                  <br>
-                  <span><mark>display: none</mark> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
-                     voluptatibus inventore eius
-                     atque obcaecati dolorum accusantium cupiditate ducimus ratione ut doloribus deleniti ab libero eos
-                     dicta consequatur mollitia sunt debitis!</span>
-                  <br>
-                  <a href="https://developer.mozilla.org/ru/docs/Web/CSS/visibility" class="linkdisplnone"
-                     target="_blank">Посилання з display: none</a>
-               </div>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-            <div class="other" id="other">
-               <h2>Додатково</h2>
-               <ol>
-                  <li>
-                     <h3>Зробити коло з блока, що має розмір 200рх*200рх.</h3>
-                     <div class="round"></div>
-                  </li>
-                  <li>
-                     <h3>Додати у div 3 параграфа і зробити усе разом прозорим на 50%.</h3>
-                     <div class="test">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, officia facere numquam
-                           quo
-                           minus nemo ipsam necessitatibus odio molestias iste dolor unde reprehenderit! Earum
-                           necessitatibus
-                           amet dolorem officiis, iste dolores.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias maiores velit
-                           inventore
-                           soluta, repellendus nemo assumenda. Ullam, et possimus!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos quae aliquid
-                           consequatur,
-                           mollitia veniam.</p>
-                     </div>
-                  </li>
-                  <li>
-                     <h3>Зробити рівну межу для "span'а" з текстом.(Не зовсім зрозумів завдання. Тому отак)</h3>
-                     <span class="otherspan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea molestias
-                        tenetur corrupti nemo. Sapiente at, eius et quo doloribus commodi voluptas perspiciatis ducimus
-                        accusamus est facere, reprehenderit minima impedit!</span>
-                  </li>
-                  <li>
-                     <h3>Зробити блок з чотирма різними border'ами.</h3>
-                     <div class="fourborders"></div>
-                  </li>
-                  <li>
-                     <h3>Зробити посилання з тінню.</h3>
-                     <a href="https://www.president.gov.ua/" target="_blank" class="otherlink">Посилання з тінню</a>
-                  </li>
-               </ol>
-            </div>
-            <a href="#header" class="anchor">Початок</a>
-         </div>
-      </main>
-      <footer class="footer">
-         <div class="mainfooter">
-            <ul>
-               <li><a href="https://twitter.com/?lang=uk" class="footerlink twitt__link" target="_blank">Твіт</a></li>
-               <li><a href="https://uk-ua.facebook.com/" class="footerlink face__link" target="_blank">Фейс</a></li>
-               <li><a href="https://web.telegram.org/k/" class="footerlink tell__link" target="_blank">Возик</a></li>
-            </ul>
-         </div>
-      </footer>
-   </div>
+	<div class="wrapper">
+		<header class="header" id="header">
+			<div class="mainheader">
+				<div class="logo__box">
+					<a href="https://www.rada.gov.ua/" target="_blank" class="logo"></a>
+				</div>
+				<div class="header__nav">
+					<ul>
+						<li class="header__nav-element"><a href="#border" class="header__link">Властивість border</a></li>
+						<li class="header__nav-element"><a href="#outline" class="header__link">Властивість outline</a></li>
+						<li class="header__nav-element"><a href="#border-radius" class="header__link">Властивість
+								border-radius</a></li>
+						<li class="header__nav-element"><a href="#box-shadow" class="header__link">Властивість box-shadow</a>
+						</li>
+						<li class="header__nav-element"><a href="#opacity" class="header__link">Властивість opacity</a></li>
+						<li class="header__nav-element"><a href="#visibility" class="header__link">Властивість visibility</a>
+						</li>
+						<li class="header__nav-element"><a href="#displaynone" class="header__link">Властивість display:
+								none</a></li>
+						<li class="header__nav-element"><a href="#other" class="header__link">Додатково</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="content">
+				<div class="border" id="border">
+					<h2>border</h2>
+					<div class="border1">
+						<p>border-style: solid</p>
+					</div>
+					<div class="border2">
+						<p>border-style: dotted</p>
+					</div>
+					<div class="border3">
+						<p>border-style: dashed</p>
+					</div>
+					<div class="border4">
+						<p>border-style: double</p>
+					</div>
+					<div class="border5">
+						<p>border-style: groove</p>
+					</div>
+					<div class="border6">
+						<p>border-style: ridge</p>
+					</div>
+					<div class="border7">
+						<p>border-style: inset</p>
+					</div>
+					<div class="border8">
+						<p>border-style: outset</p>
+					</div>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="spanborder">
+					<span><b>Я SPAN рядковий.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt molestias
+						ut perferendis?
+						Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
+						Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
+						Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
+						Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
+						repudiandae architecto dignissimos est error.</span>
+					<span><b>Я SPAN. Тепер я рядково-БЛОЧНИЙ.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Nesciunt molestias ut perferendis?
+						Labore quod dolores reprehenderit quas molestias blanditiis ad tenetur magni veniam, sit voluptatibus,
+						repudiandae architecto dignissimos est error.</span>
+					<p><b>Я ПАРАГРАФ.</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi mollitia
+						repellendus dolor excepturi expedita quae ex aliquam consequatur maxime dignissimos, odio nemo
+						possimus
+						necessitatibus fugit quaerat. Hic, provident voluptate.</p>
+				</div>
+				<div class="imgcontainer">
+					<img src="img/message.jpg" width="300" height="180" alt="message" class="imgborder solid"
+						title="Козаки пишуть листа">
+					<img src="img/message.jpg" width="300" height="180" alt="message" class="imgborder dotted"
+						title="Козаки пишуть листа">
+					<img src="img/message.jpg" width="300" height="180" alt="message" class="imgborder dashed"
+						title="Козаки пишуть листа">
+				</div>
+				<div>
+					<a href="https://supreme.court.gov.ua/supreme/gromadyanam/perelik_sprav/" class="borderlink"
+						target="_blank">Посилання</a>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="outline" id="outline">
+					<h2>outline</h2>
+					<div class="demo">
+						<div class="demoborder">border</div>
+						<div class="demooutline">outline</div>
+					</div>
+					<div class="strblock">
+						<span class="spanoutline">
+							<b>Я SPAN з outline</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quas
+							architecto ducimus dicta
+							aperiam esse iure. Harum consequatur atque fuga fugiat nobis. Unde nihil magnam nam, voluptas
+							cupiditate velit facere.
+						</span>
+						<br>
+						<span>
+							<b>Я SPAN з border</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quas
+							architecto ducimus dicta
+							aperiam esse iure. Harum consequatur atque fuga fugiat nobis. Unde nihil magnam nam, voluptas
+							cupiditate velit facere.
+						</span>
+					</div>
+					<div class="imgoutline">
+						<img src="img/message.jpg" width="300" height="180" alt="message" title="Козаки пишуть листа">
+						<img src="img/message.jpg" width="300" height="180" alt="message" title="Козаки пишуть листа">
+					</div>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="border-radius" id="border-radius">
+					<h2>border-radius</h2>
+					<div class="radiuspx">
+						<div><span>border-radius: <b>20px</b></span></div>
+						<div><span>border-radius: <b>50px</b></span></div>
+					</div>
+					<div class="radiusproc">
+						<div><span>border-radius: <b>20%</b></span></div>
+						<div><span>border-radius: <b>50%</b></span></div>
+					</div>
+					<p><b>Я ПАРАГРАФ. Маю border-radius: 50%;(((</b> Lorem ipsum dolor sit amet consectetur atque facere
+						corrupti aut nisi fugiat! Ad quasi similique quibusdam totam labore, consequuntur delectus! Error
+						itaque repellendus accusamus.</p>
+					<span><b>Я SPAN. Маю border-radius: 50%;((((((</b> Lorem ipsum dolor sit amet consectetur atque facere
+						corrupti aut nisi fugiat! Ad quasi similique quibusdam totam labore, consequuntur delectus! Error
+						itaque repellendus accusamus.</span>
+					<div class="himera">
+						<div class="himera1"><span>Я - химерний <b>border-radius</b></span></div>
+						<div class="himera2"><span>Я теж химерний <b>border-radius</b></span></div>
+					</div>
+					<div class="border-radiusimg">
+						<div>
+							<img src="img/message.jpg" width="400" height="250" alt="message">
+							<img src="img/message.jpg" width="400" height="250" alt="message">
+						</div>
+					</div>
+					<a href="https://nazk.gov.ua/uk/" target="_blank">Link</a>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="box-shadow" id="box-shadow">
+					<h2>box-shadow</h2>
+					<div class="box-shadowblock">
+						<div class="shadowblock">
+							<div class="shadowblock1">Блочний елемент</div>
+							<div class="shadowblock2">Блочний елемент</div>
+							<div class="shadowblock3">Блочний елемент</div>
+						</div>
+						<div class="shadowblock">
+							<div class="shadowblock4">Блочний елемент</div>
+							<div class="shadowblock5">Блочний елемент</div>
+							<div class="shadowblock6">Блочний елемент</div>
+						</div>
+					</div>
+					<div class="box-shadowstring">
+						<span>
+							<mark>Зовнішня тінь рядкового елемента</mark> Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Voluptatibus veniam quod numquam sequi distinctio eligendi vel, possimus deserunt qui quam
+							consectetur autem tenetur quis odio, nam ad
+							cumque delectus perferendis?
+						</span>
+						<br>
+						<span>
+							<mark>Внутрішня тінь рядкового елемента</mark> Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Voluptatibus veniam quod numquam sequi distinctio eligendi vel, possimus deserunt qui quam
+							consectetur autem tenetur quis odio, nam ad
+							cumque delectus perferendis?
+						</span>
+						<div class="box-shadowimg">
+							<img src="img/message.jpg" width="300" height="180" title="Зовнішня тінь" alt="message">
+							<img src="img/message.jpg" width="300" height="180" title="Внутрішня тінь" alt="message">
+						</div>
+						<br>
+						<a href="https://www.gp.gov.ua/ua/index.html" target="_blank">Link</a>
+					</div>
+					<div class="box-shadowblockstring">
+						<button class="button1">Рядково-блочний елемент "button"</button>
+						<button class="button2">Рядково-блочний елемент "button"</button>
+					</div>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="opacity" id="opacity">
+					<h2>opacity</h2>
+					<div class="opacityblocks">
+						<div class="opacityblock1">
+							<p><mark>Opacity 0.5 text</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic
+								fugit officia laboriosam dolor debitis sit eveniet facere, nisi nihil eius?</p>
+						</div>
+						<div class="opacityblock2">
+							<p><mark>Opacity 0.5 background</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+								Hic fugit officia laboriosam dolor debitis sit eveniet facere, nisi nihil eius?</p>
+						</div>
+						<div class="opacityblock3">
+							<p><mark>Opacity 0.5 all</mark> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic fugit
+								officia laboriosam dolor debitis sit eveniet facere, nisi nihil eius?</p>
+						</div>
+					</div>
+					<div class="opacitystrings">
+						<span><mark>Рядковий елемент "SPAN" з OPACITY: 0.7;</mark> Lorem ipsum dolor sit amet consectetur
+							adipisicing elit. Animi quaerat tempore iure quisquam numquam beatae excepturi illum quos ratione
+							tenetur earum, reiciendis doloremque veniam necessitatibus enim sed sequi quibusdam sunt.</span>
+						<br>
+						<a href="http://htmlbook.ru/html/a" target="_blank">Посилання з <b>OPACITY: 0.7;</b></a>
+					</div>
+					<div class="opacitystring-blocks">
+						<button class="button1 shadownone op-04"><span>Рядково-блочний елемент "button" з OPACITY:
+								0.4;</span></button>
+						<button class="button2 shadownone op-08"><span>Рядково-блочний елемент "button" з OPACITY:
+								0.8;</span></button>
+						<button class="button2 shadownone backop-03"><span>Елемент "button" з OPACITY: 0.3; лише
+								background</span></button>
+					</div>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="visibility" id="visibility">
+					<h2>visibility</h2>
+					<div class="visibilitybox">
+						<div class="visible"><span>visibility: visible;</span></div>
+						<div class="hidden">visibility: hidden;</div>
+						<div class="hidden2"><span>visibility: visible;</span></div>
+						<br>
+						<span><mark>visibility: hidden</mark> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Aliquid, voluptatibus inventore eius
+							atque obcaecati dolorum accusantium cupiditate ducimus ratione ut doloribus deleniti ab libero eos
+							dicta consequatur mollitia sunt debitis!</span>
+					</div>
+					<div class="displaynonebox" id="displaynone">
+						<h2>display: none</h2>
+						<div class="displaynoneboxitem1">display: inline-block;</div>
+						<div class="displaynoneboxitem2">display: none;</div>
+						<div class="displaynoneboxitem3">display: inline-block;</div>
+						<br>
+						<span><mark>display: none</mark> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+							voluptatibus inventore eius
+							atque obcaecati dolorum accusantium cupiditate ducimus ratione ut doloribus deleniti ab libero eos
+							dicta consequatur mollitia sunt debitis!</span>
+						<br>
+						<a href="https://developer.mozilla.org/ru/docs/Web/CSS/visibility" class="linkdisplnone"
+							target="_blank">Посилання з display: none</a>
+					</div>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+				<div class="other" id="other">
+					<h2>Додатково</h2>
+					<ol>
+						<li>
+							<h3>Зробити коло з блока, що має розмір 200рх*200рх.</h3>
+							<div class="round"></div>
+						</li>
+						<li>
+							<h3>Додати у div 3 параграфа і зробити усе разом прозорим на 50%.</h3>
+							<div class="test">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, officia facere numquam
+									quo
+									minus nemo ipsam necessitatibus odio molestias iste dolor unde reprehenderit! Earum
+									necessitatibus
+									amet dolorem officiis, iste dolores.</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum alias maiores velit
+									inventore
+									soluta, repellendus nemo assumenda. Ullam, et possimus!</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dignissimos quae aliquid
+									consequatur,
+									mollitia veniam.</p>
+							</div>
+						</li>
+						<li>
+							<h3>Зробити рівну межу для "span'а" з текстом.(Не зовсім зрозумів завдання. Тому отак)</h3>
+							<span class="otherspan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ea molestias
+								tenetur corrupti nemo. Sapiente at, eius et quo doloribus commodi voluptas perspiciatis ducimus
+								accusamus est facere, reprehenderit minima impedit!</span>
+						</li>
+						<li>
+							<h3>Зробити блок з чотирма різними border'ами.</h3>
+							<div class="fourborders"></div>
+						</li>
+						<li>
+							<h3>Зробити посилання з тінню.</h3>
+							<a href="https://www.president.gov.ua/" target="_blank" class="otherlink">Посилання з тінню</a>
+						</li>
+					</ol>
+				</div>
+				<a href="#header" class="anchor">Початок</a>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="mainfooter">
+				<ul>
+					<li><a href="https://twitter.com/?lang=uk" class="footerlink twitt__link" target="_blank">Твіт</a></li>
+					<li><a href="https://uk-ua.facebook.com/" class="footerlink face__link" target="_blank">Фейс</a></li>
+					<li><a href="https://web.telegram.org/k/" class="footerlink tell__link" target="_blank">Возик</a></li>
+				</ul>
+			</div>
+		</footer>
+	</div>
 </body>
 
 </html>
